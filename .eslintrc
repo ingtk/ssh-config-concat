@@ -1,0 +1,25 @@
+---
+env:
+  browser: true
+  node: true
+
+rules:
+
+  # Possible Errors
+  comma-dangle: 2
+
+  # Best Practices
+  curly: 2
+  dot-notation: 2
+  eqeqeq: 2
+  quotes: [2, "single"]
+
+  # Strict Mode
+  strict: 2
+
+  # Variables
+  no-unused-vars: 2
+
+  # Stylistic Issues
+  indent: [2, 2]
+  semi: 2
